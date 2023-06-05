@@ -22,7 +22,7 @@ def predict():
     elif prediction == 0:
         prediction = 'NEGATIVE'
 
-    return ({'This person prediction is ': f'{prediction}'})
+    return ({'Prediction': f'{prediction}'})
 
 
 if __name__ == '__main__':
